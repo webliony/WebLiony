@@ -204,6 +204,20 @@ section .title::after{
     background: none;
 }
 
+
+  .home .home-content img {
+    width: 100%;
+    height: 50%;
+}
+
+/* Define image size for larger screens */
+@media (min-width: 768px) {
+    .home .home-content img {
+        max-width: 100%;
+    }
+}
+
+
 /* about section styling */
 .about .about-content .left{
     width: 45%;
@@ -230,19 +244,19 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background:  #FF7F50;
+    background:  black;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid  #FF7F50;
+    border-radius: 8px;
+    border: 2px solid  white;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color:  #FF7F50;
-    background: none;
+    color:  white;
+    background: green;
 }
 
 .blinking-text {
@@ -507,7 +521,7 @@ section .title::after{
   display: flex;
   align-items: center;
 }
-.right form .button-area button{
+.right form .button-area input{
   color: #fff;
   display: block;
   width: 160px!important;
@@ -522,7 +536,7 @@ section .title::after{
   border: 2px solid  #FF7F50;
   transition: all 0.3s ease;
 }
-.right form .button-area button:hover{
+.right form .button-area input:hover{
   color:  #FF7F50;
   background: none;
 }
