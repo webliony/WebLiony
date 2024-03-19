@@ -88,8 +88,8 @@ section .title::after{
 }
 .navbar .logo img
 {
-    height: 90px;
-    width: 100px;
+    height: 60px;
+    width: 70px;
 }
 .navbar .logo a span{
     color:  #FF7F50;
